@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS Matiere (
     PRIMARY KEY (id_matiere)
 );
 
-CREATE TABLE IF NOT EXISTS Disponi (
+CREATE TABLE IF NOT EXISTS Disponibilite (
     id_dispo INT NOT NULL,
     jours VARCHAR(10),
     heure_debut TIME,
